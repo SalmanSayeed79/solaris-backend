@@ -35,6 +35,28 @@ def monthly():
     response = requests.get("https://power.larc.nasa.gov/api/temporal/monthly/point", params=query)
     return response.json()
 
+@app.route('/api/temporal/daily/point')
+def dailyData():
+    parameters = request.args.get('parameters')
+    community = request.args.get('community')
+    longitude = request.args.get('longitude')
+    latitude = request.args.get('latitude')
+    format = request.args.get('format')
+    start= request.args.get('start')
+    end = request.args.get('end')
+
+    query = {
+        'parameters': parameters,
+        'community': community,
+        'longitude': longitude,
+        'latitude': latitude,
+        'format': format,
+        'start': start,
+        'end': end
+    }
+    response = requests.get("https://power.larc.nasa.gov/api/temporal/daily/point", params=query)
+    return response.json()
+
 @app.route('/api/temporal/daily/optimum')
 def daily():
     longitude = request.args.get('longitude')
