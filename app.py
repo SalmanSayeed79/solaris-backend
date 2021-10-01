@@ -8,8 +8,10 @@ from plan import (
 )
 import requests
 from flask import Flask, request
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/api/temporal/monthly/point')
 def monthly():
