@@ -13,7 +13,7 @@ While building the web app for "Solaris", we encountered two huge problems :
 	  Fetching data directly from POWER API causes CORS(Cross Origin Resource Sharing) error. This is error is resolved in our backend using the CORS module for flask
   - #### Calculation of the optimal tilt angle
 	  One of the key features of "Solaris" is to provide the optimal tilt angle for solar panels. All the calculations for that are done in our backend.
-  
+
 ### Dependencies
 ---
 We have used a few modules to build up our backend REST API. They are listed below:
@@ -35,11 +35,11 @@ There are basically 3 basic endpoints of this REST API
 	This endpoint deals with the daily data of a particular location at a particular day. The param list contains all the information about latitude, longitude, starting date, ending date, return type. This endpoint also fetches data from NASA POWER API and feeds it to the client
 ### Resources
 ---
-Solaris web app : [Solaris web homepage](https://solaris-bd.web.app/)
-Solaris web app repo : [Github repo for Solaris web app](https://github.com/SalmanSayeed79/Solaris-BD)
-Solaris Mobile app : [Apk drive link](https://drive.google.com/file/d/170HMrigXFpZwzHW3F4FIAJt-gC9HfU5Z/view?usp=sharing)
-Solaris Mobile app repo: [Github repo for solaris mobile app](https://github.com/zarifikram/SOLARIS)
-Solaris IOT module : [Github repo for Solaris IOT code](https://github.com/pptx704/solaris-servo-control)
+* Solaris web app : [Solaris web homepage](https://solaris-bd.web.app/)
+* Solaris web app repo : [Github repo for Solaris web app](https://github.com/SalmanSayeed79/Solaris-BD)
+* Solaris Mobile app : [Apk drive link](https://drive.google.com/file/d/170HMrigXFpZwzHW3F4FIAJt-gC9HfU5Z/view?usp=sharing)
+* Solaris Mobile app repo: [Github repo for solaris mobile app](https://github.com/zarifikram/SOLARIS)
+* Solaris IOT module : [Github repo for Solaris IOT code](https://github.com/pptx704/solaris-servo-control)
 
 ### Reference
 ---
