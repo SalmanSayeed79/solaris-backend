@@ -1,6 +1,6 @@
 
 # Solaris Backend
-[![244326655-332221555363473-4636031536199997176-n.jpg](https://i.postimg.cc/pLmcczpd/244326655-332221555363473-4636031536199997176-n.jpg)](https://postimg.cc/Mn8Yvc0k)
+[![Cover.png](https://i.postimg.cc/j2CPY2Sh/Cover.png)](https://postimg.cc/QKGHpX5B)
 The core of the "Solaris" web app and the mobile app is its backend REST API. This is where the fetching of data occurs. And our calculation for optimal tilt angle is also done here
 
 You can view are web app [here](https://solaris-bd.web.app/)
